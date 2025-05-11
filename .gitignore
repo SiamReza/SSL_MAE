@@ -1,0 +1,10 @@
+# Ignore Models
+*.pt
+*.safetensors
+*.bin
+
+# Ignore all image files recursively in dataset
+dataset/**/*.jpg
+dataset/**/*.png
+
+

@@ -1,0 +1,99 @@
+Results Summary for best_LMA_vit_mae
+================================================================================
+
+Seed: 42 (fixed)
+
+Average Metrics Across All Datasets:
+----------------------------------------
+accuracy: 0.5852
+precision: 0.6222
+recall: 0.4828
+specificity: 0.7789
+f1_score: 0.4907
+auc: 0.6335
+ap: 0.7818
+eer: 0.3583
+bpcer_5: 0.6115
+bpcer_10: 0.5769
+bpcer_20: 0.5229
+
+Per-Dataset Metrics:
+----------------------------------------
+
+LMA:
+  accuracy: 0.9667
+  precision: 0.9541
+  recall: 1.0000
+  specificity: 0.8919
+  f1_score: 0.9765
+  auc: 0.9997
+  ap: 0.9999
+  eer: 0.0093
+  bpcer_5: 0.0000
+  bpcer_10: 0.0000
+  bpcer_20: 0.0000
+
+LMA_UBO:
+  accuracy: 0.9637
+  precision: 0.9503
+  recall: 1.0000
+  specificity: 0.8816
+  f1_score: 0.9745
+  auc: 0.9995
+  ap: 0.9998
+  eer: 0.0081
+  bpcer_5: 0.0017
+  bpcer_10: 0.0017
+  bpcer_20: 0.0000
+
+MIPGAN_I:
+  accuracy: 0.2998
+  precision: 0.4526
+  recall: 0.0470
+  specificity: 0.8714
+  f1_score: 0.0852
+  auc: 0.5212
+  ap: 0.6677
+  eer: 0.4754
+  bpcer_5: 0.8851
+  bpcer_10: 0.8113
+  bpcer_20: 0.7187
+
+MIPGAN_II:
+  accuracy: 0.3072
+  precision: 0.5041
+  recall: 0.0463
+  specificity: 0.8971
+  f1_score: 0.0848
+  auc: 0.4898
+  ap: 0.6573
+  eer: 0.5140
+  bpcer_5: 0.8868
+  bpcer_10: 0.8353
+  bpcer_20: 0.7410
+
+MorDiff:
+  accuracy: 0.7078
+  precision: 0.8367
+  recall: 0.8013
+  specificity: 0.2723
+  f1_score: 0.8186
+  auc: 0.5329
+  ap: 0.8201
+  eer: 0.4693
+  bpcer_5: 0.8990
+  bpcer_10: 0.8305
+  bpcer_20: 0.7260
+
+StyleGAN_IWBF:
+  accuracy: 0.2661
+  precision: 0.0353
+  recall: 0.0023
+  specificity: 0.8593
+  f1_score: 0.0043
+  auc: 0.2581
+  ap: 0.5459
+  eer: 0.6738
+  bpcer_5: 0.9966
+  bpcer_10: 0.9828
+  bpcer_20: 0.9520

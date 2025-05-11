@@ -1,0 +1,4 @@
+seed,seed_type,epoch,train_loss,train_recon_loss,train_cls_loss,val_loss,val_recon_loss,val_cls_loss,val_acc,learning_rate
+42,fixed
+42,,1,2.847413945198059,2.847413945198059,0.0,0.0,0.0,0.0,0.0,5e-05
+42,,2,2.852051029205322,2.852051029205322,0.0,0.0,0.0,0.0,0.0,3.7500000000000003e-05

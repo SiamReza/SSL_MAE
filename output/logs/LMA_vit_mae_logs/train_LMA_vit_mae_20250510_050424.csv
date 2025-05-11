@@ -1,0 +1,2 @@
+seed,seed_type,epoch,train_loss,train_recon_loss,train_cls_loss,val_loss,val_recon_loss,val_cls_loss,val_acc,val_precision,val_recall,val_f1,learning_rate
+42,fixed
