@@ -1,0 +1,28 @@
+# Ignore Models
+*.pt
+*.safetensors
+*.bin
+
+# Ignore all image files recursively in dataset
+*.jpg
+*.png
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.webp
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore other unnecessary files
+*.zip
+*.db
+.DS_Store
+
+# Ignore large directories
+models/
+output/
+dataset/
